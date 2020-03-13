@@ -248,14 +248,14 @@
 	</section>
 	{{/if}}
 	
-	{{#if resume.awards.length}}
-	<section id="awards" class="row">
+	{{#if resume.certifications.length}}
+	<section id="certifications" class="row">
 		<aside class="col-sm-3">
-			<h3>Awards</h3>
+			<h3>Certifications & Online courses</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
-			{{#each resume.awards}}
+			{{#each resume.certifications}}
 			<div class="col-sm-12">
 				<h4 class="strike-through">
 					<span>{{title}}</span>
